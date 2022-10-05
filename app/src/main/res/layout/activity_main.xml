@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:foregroundTint="#FFC107"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Bebicardo"
+            android:textColor="#4CAF50"
+            android:textSize="50sp" />
+
+        <EditText
+            android:id="@+id/recherche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:background="@android:color/background_light"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:hint="@string/search"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/rechercheButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search" />
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add" />
+
+        <Spinner
+            android:id="@+id/requestSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="113dp"
+            android:background="@android:color/background_light"
+            android:backgroundTint="#FFFFFF"
+            android:entries="@array/requestSpinner"
+            android:spinnerMode="dialog" />
+
+        <Button
+            android:id="@+id/requestAtt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="104dp"
+            android:text="@string/request" />
+
+    </LinearLayout>
+
+</LinearLayout>

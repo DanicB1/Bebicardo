@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Bebicardo</string>
+    <string name="search">Search</string>
+    <string name="add">Add Recipe</string>
+    <string name="request">Send Request</string>
+    <string name="dialogDone">Done</string>
+    <string name="dialogCancel">Cancel</string>
+    <string name="dialogTitle">Recipe\'s URL</string>
+    <string name="dialogURL">Enter the URL</string>
+    <string name="infosButton">Get Infos</string>
+    <string name="ingText">Ingredients</string>
+    <string name="insText">Instructions</string>
+    <string-array name="requestSpinner">
+        <item>Destination Reached</item>
+        <item>Request Attention</item>
+        <item>Request Bisouz</item>
+    </string-array>
+    <string-array name="requestAnswers">
+        <item>HOLA, SOY HOMME !</item>
+        <item>HELLO, I REQUEST ATTENTION !</item>
+        <item>HELLO, I REQUIRE BISOUZ !</item>
+    </string-array>
+</resources>
